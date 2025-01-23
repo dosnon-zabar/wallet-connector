@@ -22,7 +22,7 @@ export function DashboardTabs({
   return (
     <Tabs defaultValue="overview" className="w-full">
       <TabsList className="mb-4">
-        <TabsTrigger value="overview">Overview</TabsTrigger>
+        <TabsTrigger value="overview">Wallet overview</TabsTrigger>
         <TabsTrigger value="staking">Staking</TabsTrigger>
       </TabsList>
 
